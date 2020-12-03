@@ -1,0 +1,10 @@
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\bin\Debug\DemoGestionAS_BLL.dll
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\bin\Debug\DemoGestionAS_BLL.pdb
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\bin\Debug\DemoGestionAS_BO.dll
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\bin\Debug\DemoGestionAs_DAL.dll
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\bin\Debug\DemoGestionAS_BO.pdb
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\bin\Debug\DemoGestionAs_DAL.pdb
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\obj\Debug\DemoGestionAS_BLL.csprojAssemblyReference.cache
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\obj\Debug\DemoGestionAS_BLL.csproj.CopyComplete
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\obj\Debug\DemoGestionAS_BLL.dll
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\obj\Debug\DemoGestionAS_BLL.pdb

@@ -1,0 +1,16 @@
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\bin\Debug\DemoGestionAS.exe.config
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\bin\Debug\DemoGestionAS.exe
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\bin\Debug\DemoGestionAS.pdb
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\obj\Debug\DemoGestionAS.Form1.resources
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\obj\Debug\DemoGestionAS.Properties.Resources.resources
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\obj\Debug\DemoGestionAS_GUI.csproj.GenerateResource.cache
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\obj\Debug\DemoGestionAS.exe
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\obj\Debug\DemoGestionAS.pdb
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\bin\Debug\DemoGestionAS_BLL.dll
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\bin\Debug\DemoGestionAS_BO.dll
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\bin\Debug\DemoGestionAs_DAL.dll
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\bin\Debug\DemoGestionAS_BLL.pdb
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\bin\Debug\DemoGestionAS_BO.pdb
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\bin\Debug\DemoGestionAs_DAL.pdb
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\obj\Debug\DemoGestionAS_GUI.csprojAssemblyReference.cache
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS\obj\Debug\DemoGestionAS_GUI.csproj.CopyComplete

@@ -1,0 +1,5 @@
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BO\bin\Debug\DemoGestionAS_BO.dll
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BO\bin\Debug\DemoGestionAS_BO.pdb
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BO\obj\Debug\DemoGestionAS_BO.dll
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BO\obj\Debug\DemoGestionAS_BO.pdb
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BO\obj\Debug\DemoGestionAS_BO.csprojAssemblyReference.cache

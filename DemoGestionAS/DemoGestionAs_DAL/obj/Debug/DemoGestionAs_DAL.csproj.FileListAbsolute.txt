@@ -1,0 +1,8 @@
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.csprojAssemblyReference.cache
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\bin\Debug\DemoGestionAs_DAL.dll
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\bin\Debug\DemoGestionAs_DAL.pdb
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\bin\Debug\DemoGestionAS_BO.dll
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\bin\Debug\DemoGestionAS_BO.pdb
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.csproj.CopyComplete
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.dll
+G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.pdb
