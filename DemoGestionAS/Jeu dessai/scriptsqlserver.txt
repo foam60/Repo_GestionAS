@@ -1,0 +1,68 @@
+
+--------------------------------------------------V2.00------------------------------------------------------------
+
+
+CREATE TABLE UTILISATEUR (
+    Id_utilisateur INT PRIMARY KEY IDENTITY (1, 1),
+    Login_utilisateur VARCHAR (50) NOT NULL,
+    Mdp_utilisateur VARCHAR (50) NOT NULL,
+    Droit_utilisateur VARCHAR (50) NOT NULL
+);
+
+CREATE TABLE CLASSE (
+    Id_classe INT PRIMARY KEY IDENTITY (1, 1),
+    Libelle_classe VARCHAR (50) NOT NULL
+);
+
+CREATE TABLE ADHERENT (
+    Id_adherent INT PRIMARY KEY IDENTITY (1, 1),
+    Nom_adherent VARCHAR (50) NOT NULL,
+    Prenom_adherent VARCHAR (50) NOT NULL,
+    Ddn_adherent VARCHAR (50) NOT NULL,
+    Numtel_adherent BIGINT NOT NULL,
+    Email_adherent VARCHAR (50) NOT NULL,
+    Numparent_adherent BIGINT NOT NULL,
+    Autprelev_adherent BIT NOT NULL,
+    Sexe_adherent VARCHAR(50) NOT NULL,
+    Login_adherent VARCHAR (50) NOT NULL,
+    Mdp_adherent VARCHAR (50) NOT NULL,
+    Datemaj_adherent VARCHAR (50) NOT NULL,
+    Archive_adherent INT NOT NULL,
+    Id_utilisateur INT NOT NULL,
+    Id_classe INT NOT NULL,
+    FOREIGN KEY (Id_utilisateur) REFERENCES UTILISATEUR (Id_utilisateur),
+    FOREIGN KEY (Id_classe) REFERENCES CLASSE (Id_classe)
+);
+
+CREATE TABLE BUDGET (
+    Id_budget INT PRIMARY KEY IDENTITY (1, 1),
+    Libelle_budget VARCHAR (50) NOT NULL,
+    Montantinitial_budget INT NOT NULL
+);
+
+CREATE TABLE TYPE_FLUX (
+    Id_typeflux INT PRIMARY KEY IDENTITY (1, 1),
+    Libelle_typeflux VARCHAR (50) NOT NULL
+);
+
+CREATE TABLE EVENEMENT (
+    Id_evenement INT PRIMARY KEY IDENTITY (1, 1),
+    Libelle_evenement VARCHAR (50) NOT NULL,
+    Date_evenement VARCHAR (50) NOT NUlL,
+    Cout_evenement INT NOT NULL,
+    Lieu_evenement VARCHAR (50) NOT NULL
+);
+
+CREATE TABLE FLUX (
+    Id_flux INT PRIMARY KEY IDENTITY (1, 1),
+    Libelle_flux VARCHAR (50) NOT NULL,
+    Date_flux VARCHAR (50) NOT NUlL,
+    Montant_flux INT NOT NULL,
+    Prelevementeff_flux BIT NOT NULL,
+    Id_adherent INT NOT NULL,
+    Id_typeflux INT NOT NULL,
+	Id_evenement INT NOT NULL,
+    FOREIGN KEY (Id_adherent) REFERENCES ADHERENT (Id_adherent),
+    FOREIGN KEY (Id_evenement) REFERENCES EVENEMENT (Id_evenement),
+    FOREIGN KEY (Id_typeflux) REFERENCES TYPE_FLUX (Id_typeflux)
+);

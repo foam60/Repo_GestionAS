@@ -8,3 +8,13 @@ G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\obj\Debug\DemoGestionAS
 G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\obj\Debug\DemoGestionAS_BLL.csproj.CopyComplete
 G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\obj\Debug\DemoGestionAS_BLL.dll
 G:\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\obj\Debug\DemoGestionAS_BLL.pdb
+C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\bin\Debug\DemoGestionAS_BLL.dll
+C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\bin\Debug\DemoGestionAS_BLL.pdb
+C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\bin\Debug\DemoGestionAS_BO.dll
+C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\bin\Debug\DemoGestionAs_DAL.dll
+C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\bin\Debug\DemoGestionAS_BO.pdb
+C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\bin\Debug\DemoGestionAs_DAL.pdb
+C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\obj\Debug\DemoGestionAS_BLL.csprojAssemblyReference.cache
+C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\obj\Debug\DemoGestionAS_BLL.csproj.CopyComplete
+C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\obj\Debug\DemoGestionAS_BLL.dll
+C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAS_BLL\obj\Debug\DemoGestionAS_BLL.pdb
