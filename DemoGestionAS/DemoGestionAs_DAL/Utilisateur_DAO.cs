@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using DemoGestionAS_BO;
-
+using System.Data;
+using System.Configuration;
 
 namespace DemoGestionAs_DAL
 {
@@ -22,6 +23,24 @@ namespace DemoGestionAs_DAL
             }
 
             return unUtilisateur_DAO;
+        }
+
+        public static string ConnexionReturn(string username, string mdp)
+        {
+            string query = "SELECT Droit_utilisateur from UTILISATEUR WHERE Login_utilisateur = @username and Mdp_utilisateur = @password";
+            string returnValue = "";
+            string connectionString = ConfigurationManager.ConnectionStrings["Utilisateur"].ConnectionString;
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                using (SqlCommand sqlcmd = new SqlCommand(query, con))
+                {
+                    sqlcmd.Parameters.Add("@username", SqlDbType.VarChar).Value = username;
+                    sqlcmd.Parameters.Add("@password", SqlDbType.VarChar).Value = mdp;
+                    con.Open();
+                    returnValue = (string)sqlcmd.ExecuteScalar();
+                }
+            }
+            return returnValue;
         }
         public static List<Utilisateur> GetUtilisateurs()
         {

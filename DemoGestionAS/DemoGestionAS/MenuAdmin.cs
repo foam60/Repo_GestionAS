@@ -17,5 +17,10 @@ namespace DemoGestionAS
             InitializeComponent();
             this.Text = "Menu Admnistration";
         }
+
+        private void MenuAdmin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

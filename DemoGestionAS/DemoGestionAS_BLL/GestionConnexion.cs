@@ -14,19 +14,8 @@ namespace DemoGestionAS_BLL
     {
         public static string ConnexionForm(string username, string mdp)
         {
-            string query = "SELECT Droit_utilisateur from UTILISATEUR WHERE Login_utilisateur = @username and Mdp_utilisateur = @password";
-            string returnValue = "";
-            using (SqlConnection con = new SqlConnection("Data Source=localhost;Initial Catalog=Demo_GestionAS;Integrated Security=True"))
-            {
-                using (SqlCommand sqlcmd = new SqlCommand(query, con))
-                {
-                    sqlcmd.Parameters.Add("@username", SqlDbType.VarChar).Value = username;
-                    sqlcmd.Parameters.Add("@password", SqlDbType.VarChar).Value = mdp;
-                    con.Open();
-                    returnValue = (string)sqlcmd.ExecuteScalar();
-                }
-            }
-            return returnValue;
+            return Utilisateur_DAO.ConnexionReturn(username, mdp);
         }
+
     }
 }
