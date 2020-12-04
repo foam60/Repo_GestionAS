@@ -42,7 +42,7 @@ namespace DemoGestionAS
             //EDIT to avoid NRE 
             if (String.IsNullOrEmpty(returnValue))
             {
-                MessageBox.Show("Incorrect username or password");
+                MessageBox.Show("Vos identifiants sont incorrectes !");
                 return;
             }
             if (returnValue == "M")
@@ -56,6 +56,23 @@ namespace DemoGestionAS
                 MenuCompta fr2 = new MenuCompta();
                 fr2.Show();
                 this.Hide();
+            }
+        }
+
+        private void ModuleConnexion_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textBox2.PasswordChar == '*')
+            {
+                this.textBox2.PasswordChar = '\0';
+            }
+            else if (textBox2.PasswordChar == '\0')
+            {
+                this.textBox2.PasswordChar = '*';
             }
         }
     }

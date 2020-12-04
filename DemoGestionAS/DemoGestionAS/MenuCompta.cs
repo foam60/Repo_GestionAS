@@ -16,5 +16,10 @@ namespace DemoGestionAS
         {
             InitializeComponent();
         }
+
+        private void MenuCompta_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
