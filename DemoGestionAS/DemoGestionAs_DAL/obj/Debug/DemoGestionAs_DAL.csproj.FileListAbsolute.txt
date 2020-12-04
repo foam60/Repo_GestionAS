@@ -10,7 +10,6 @@ C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\bin
 C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\bin\Debug\DemoGestionAs_DAL.pdb
 C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\bin\Debug\DemoGestionAS_BO.dll
 C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\bin\Debug\DemoGestionAS_BO.pdb
-C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.csprojAssemblyReference.cache
 C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.csproj.CopyComplete
 C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.dll
 C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.pdb

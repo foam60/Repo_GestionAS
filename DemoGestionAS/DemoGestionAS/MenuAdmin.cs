@@ -15,11 +15,7 @@ namespace DemoGestionAS
         public MenuAdmin()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
+            this.Text = "Menu Admnistration";
         }
     }
 }

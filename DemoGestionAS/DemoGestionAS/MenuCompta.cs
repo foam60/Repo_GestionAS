@@ -15,6 +15,7 @@ namespace DemoGestionAS
         public MenuCompta()
         {
             InitializeComponent();
+            this.Text = "Menu Comptabilité";
         }
 
         private void MenuCompta_Load(object sender, EventArgs e)

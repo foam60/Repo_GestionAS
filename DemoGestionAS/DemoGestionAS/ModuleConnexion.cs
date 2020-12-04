@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DemoGestionAS_BLL;
-using DemoGestionAS_BO;
+
 
 namespace DemoGestionAS
 {
@@ -27,19 +27,7 @@ namespace DemoGestionAS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string query = "SELECT Droit_utilisateur from UTILISATEUR WHERE Login_utilisateur = @username and Mdp_utilisateur = @password";
-            string returnValue = "";
-            using (SqlConnection con = new SqlConnection("Data Source=localhost;Initial Catalog=Demo_GestionAS;Integrated Security=True"))
-            {
-                using (SqlCommand sqlcmd = new SqlCommand(query, con))
-                {
-                    sqlcmd.Parameters.Add("@username", SqlDbType.VarChar).Value = textBox1.Text;
-                    sqlcmd.Parameters.Add("@password", SqlDbType.VarChar).Value = textBox2.Text;
-                    con.Open();
-                    returnValue = (string)sqlcmd.ExecuteScalar();
-                }
-            }
-            //EDIT to avoid NRE 
+            string returnValue = GestionConnexion.ConnexionForm(this.textBox1.Text, this.textBox2.Text);
             if (String.IsNullOrEmpty(returnValue))
             {
                 MessageBox.Show("Vos identifiants sont incorrectes !");
@@ -59,11 +47,6 @@ namespace DemoGestionAS
             }
         }
 
-        private void ModuleConnexion_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             if (textBox2.PasswordChar == '*')
@@ -74,6 +57,11 @@ namespace DemoGestionAS
             {
                 this.textBox2.PasswordChar = '*';
             }
+        }
+
+        private void ModuleConnexion_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

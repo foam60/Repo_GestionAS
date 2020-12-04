@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DemoGestionAS_BLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DemoGestionAS_BLL\bin\Debug\DemoGestionAS_BLL.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -99,10 +103,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DemoGestionAS_BLL\DemoGestionAS_BLL.csproj">
-      <Project>{a05a76d7-ea2b-4c42-be48-3604ba983fa3}</Project>
-      <Name>DemoGestionAS_BLL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DemoGestionAS_BO\DemoGestionAS_BO.csproj">
       <Project>{d2a89f74-3ca5-4cfc-951b-d159f0aaf30a}</Project>
       <Name>DemoGestionAS_BO</Name>
