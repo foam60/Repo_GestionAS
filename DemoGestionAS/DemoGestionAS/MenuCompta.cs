@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace DemoGestionAS
 {
-    public partial class MenuCompta : Form
+    public partial class MenuCompta : MetroFramework.Forms.MetroForm
     {
         public MenuCompta()
         {
@@ -20,7 +20,7 @@ namespace DemoGestionAS
 
         private void MenuCompta_Load(object sender, EventArgs e)
         {
-
+         
         }
     }
 }

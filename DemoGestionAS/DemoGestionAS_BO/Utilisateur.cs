@@ -21,6 +21,11 @@ namespace DemoGestionAS_BO
             this.droit_utilisateur = droit;
         }
 
+        public int GetId()
+        {
+            return this.id_utilisateur;
+        }
+
         public int Id
         {
             get => this.id_utilisateur;

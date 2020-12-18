@@ -14,3 +14,11 @@ C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\obj
 C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.dll
 C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.pdb
 C:\Users\antoi\Desktop\AAAAAAAAAAAAAAAAAAAAA\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.csprojAssemblyReference.cache
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAs_DAL\bin\Debug\DemoGestionAs_DAL.dll
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAs_DAL\bin\Debug\DemoGestionAs_DAL.pdb
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAs_DAL\bin\Debug\DemoGestionAS_BO.dll
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAs_DAL\bin\Debug\DemoGestionAS_BO.pdb
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.csprojAssemblyReference.cache
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.csproj.CopyComplete
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.dll
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAs_DAL\obj\Debug\DemoGestionAs_DAL.pdb

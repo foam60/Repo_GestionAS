@@ -12,6 +12,7 @@ namespace DemoGestionAS_BLL
 {
     public class GestionUtilisateurs
     {
+        private int id_selec;
         private int id_utilisateur;
         private string login_utilisateur;
         private string mdp_utilisateur;
@@ -62,6 +63,12 @@ namespace DemoGestionAS_BLL
         {
             get => this.droit_utilisateur;
             set => this.droit_utilisateur = value;
+        }
+
+        public int Selec
+        {
+            get => this.id_selec;
+            set => this.id_selec = value;
         }
 
         private static GestionUtilisateurs uneGestionUtilisateurs; // objet BLL

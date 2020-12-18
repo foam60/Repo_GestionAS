@@ -10,7 +10,8 @@ using System.Windows.Forms;
 
 namespace DemoGestionAS
 {
-    public partial class MenuAdmin : Form
+    public partial class MenuAdmin : MetroFramework.Forms.MetroForm
+
     {
         public MenuAdmin()
         {
@@ -21,6 +22,12 @@ namespace DemoGestionAS
         private void MenuAdmin_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var moduleGestionEleve = new ModuleGestionEleve();
+            moduleGestionEleve.Show();
         }
     }
 }

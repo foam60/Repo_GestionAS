@@ -12,6 +12,8 @@ namespace DemoGestionAs_DAL
 {
     public class Utilisateur_DAO
     {
+        
+
         public static Utilisateur_DAO unUtilisateur_DAO;
 
         // Accesseur en lecture, renvoi une instance
@@ -25,6 +27,7 @@ namespace DemoGestionAs_DAL
             return unUtilisateur_DAO;
         }
 
+        
         public static string ConnexionReturn(string username, string mdp)
         {
             string query = "SELECT Droit_utilisateur from UTILISATEUR WHERE Login_utilisateur = @username and Mdp_utilisateur = @password";
@@ -76,7 +79,6 @@ namespace DemoGestionAs_DAL
                 {
                     login = monReader["login_utilisateur"].ToString();
                     mdp = monReader["mdp_utilisateur"].ToString();
-                    droit = Int32.Parse(monReader["droit_utilisateur"].ToString());
                 }
                 unUtilisateur = new Utilisateur(id, login, mdp, droit);
                 lesUtilisateurs.Add(unUtilisateur);

@@ -10,11 +10,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DemoGestionAS_BLL;
+using MetroSet_UI;
 
 
 namespace DemoGestionAS
 {
-    public partial class ModuleConnexion : Form
+    public partial class ModuleConnexion : MetroFramework.Forms.MetroForm
     {
         public ModuleConnexion()
         {
@@ -60,6 +61,11 @@ namespace DemoGestionAS
         }
 
         private void ModuleConnexion_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

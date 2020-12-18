@@ -37,9 +37,22 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\DemoGestionAS_BLL\bin\Debug\DemoGestionAS_BLL.dll</HintPath>
     </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroSet UI, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroSet_UI.2.0.0\lib\net45\MetroSet UI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,6 +64,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ModuleAjout_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleAjout_Edit.Designer.cs">
+      <DependentUpon>ModuleAjout_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleGestionEleve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleGestionEleve.Designer.cs">
+      <DependentUpon>ModuleGestionEleve.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuCompta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +96,12 @@
     </Compile>
     <Compile Include="program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ModuleAjout_Edit.resx">
+      <DependentUpon>ModuleAjout_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleGestionEleve.resx">
+      <DependentUpon>ModuleGestionEleve.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuAdmin.resx">
       <DependentUpon>MenuAdmin.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,7 +119,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -111,6 +144,12 @@
       <Project>{fd92d726-7aa4-4edf-aa35-37cabdd22e61}</Project>
       <Name>DemoGestionAs_DAL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cloud-refresh-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

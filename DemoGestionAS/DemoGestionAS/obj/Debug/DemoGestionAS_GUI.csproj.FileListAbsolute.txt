@@ -50,3 +50,9 @@ B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAS\obj\Debug\DemoGestion
 B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAS\obj\Debug\DemoGestionAS_GUI.csproj.CopyComplete
 B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAS\obj\Debug\DemoGestionAS.exe
 B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAS\obj\Debug\DemoGestionAS.pdb
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAS\obj\Debug\DemoGestionAS.ModuleGestionEleve.resources
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAS\bin\Debug\MetroFramework.Design.dll
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAS\bin\Debug\MetroFramework.dll
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAS\bin\Debug\MetroFramework.Fonts.dll
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAS\bin\Debug\MetroSet UI.dll
+B:\antoi\Github\Repo_GestionAS\DemoGestionAS\DemoGestionAS\obj\Debug\DemoGestionAS.ModuleAjout_Edit.resources
